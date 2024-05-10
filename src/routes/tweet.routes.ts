@@ -9,7 +9,7 @@ const tweetRouter = Router();
 tweetRouter.get("/:tweetId", getTweetController)
 tweetRouter.get("/get/all", getAllTweetsController)
 tweetRouter.post("/", createTweetController)
-tweetRouter.delete("/:tweetId", deleteTweetController)
+tweetRouter.delete("/:userId", deleteTweetController)
 tweetRouter.put("/", updateTweetController)
 
 export default tweetRouter
